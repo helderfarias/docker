@@ -62,3 +62,6 @@ docker build -t <name> \
 RUN \
   echo -e "proxy=$http_proxy\nproxy=$https_proxy" >> /etc/yum.conf
 ```
+
+### Credits
+https://crondev.com/running-docker-behind-proxy/
